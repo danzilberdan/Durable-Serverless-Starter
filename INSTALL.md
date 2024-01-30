@@ -60,7 +60,7 @@ durable keys list
 ```
 - Create a `.env` file at the root folder of this repo
 - Add the following to the `.env` (Replace with your API key)
-```toml
+```
 API_KEY=<api_key>
 ```
 ## Deploy to Lambda
@@ -106,4 +106,13 @@ poetry install
 - Start the workflow!
 ```bash
 poetry run python start_workflow.py
+```
+## Monitoring
+- Watch your logs using Serverless Framework
+```bash
+sls logs -f <function_name> -t
+```
+- Monitor Temporal using [tctl](https://docs.temporal.io/tctl-v1)
+```bash
+durable temporal tctl <command>
 ```

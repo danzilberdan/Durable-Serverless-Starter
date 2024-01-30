@@ -1,0 +1,16 @@
+frameworkVersion: '3'
+app: myproject
+service: myproject
+
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  durablefunc:
+    handler: main.handler
+    environment:
+      API_KEY: ${env:API_KEY}
+    timeout: 60

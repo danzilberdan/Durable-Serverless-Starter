@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exampleproject"
+version = "0.1.0"
+description = ""
+authors = ["Dan Zilberman <dan.zilberman99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+temporalio = "^1.5.0"
+python-dotenv = "1.0.1"
+pydurable = "^0.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

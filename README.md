@@ -1,4 +1,4 @@
-# Durable-Serverless-Starter (Preview)
+# Durable Serverless Starter (Preview)
 Deploy durable workflows using serverless compute.
 ## Features
 - **Durable Execution** - Develop reliable, long-running functions without the usual complexity (state management, queues, schedulers, etc.).

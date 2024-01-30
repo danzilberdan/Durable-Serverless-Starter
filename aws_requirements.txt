@@ -1,2 +1,2 @@
 temporalio==1.5.0
-pydurable==0.2.5
+pydurable==0.2.6

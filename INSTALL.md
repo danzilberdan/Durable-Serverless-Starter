@@ -67,7 +67,7 @@ API_KEY=<api_key>
 - Set up [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 - In project root -
 ```bash
-pip install -t vendor -r aws_requirements.txt
+pip install -t vendor -r aws_requirements.txt --upgrade
 ```
 - Then deploy
 ```bash

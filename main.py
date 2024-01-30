@@ -36,13 +36,11 @@ class GreetingWorkflow:
             await asyncio.sleep(30)
 
 
-async def handler(event, context):
-    asyncio.run(
+def handler(event, context):
+    return asyncio.run(
         run(workflows=[
             GreetingWorkflow
         ], activities=[
             compose_greeting
         ], context=context)
     )
-
-    return {"statusCode": 200, "body": "Completed"}

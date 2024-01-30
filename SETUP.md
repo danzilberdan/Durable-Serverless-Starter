@@ -6,7 +6,7 @@ npm install -g serverless
 ```
 - Install Durable's cli
 ```bash
-pip install pydurable[cli]
+pip3 install pydurable[cli]
 ```
 - Sign in to Durable
 ```bash

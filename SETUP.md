@@ -1,4 +1,4 @@
-# Installation Guide
+# Setup Guide
 - Clone this project
 - Install Serverless Framework
 ```bash

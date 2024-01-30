@@ -8,8 +8,8 @@ Deploy durable workflows using serverless compute.
 ## Getting Started
 Clone this repo to get started using Serverless Durable Workflows built on top of *Temporal*.
 
-## Installation
-Check out the [Installation Guide](./INSTALL.md).
+## Set Up
+Check out the [Setup Guide](./SETUP.md) to get up and running.
 
 ### Stack
 - Serverless with [Serverless Framework](https://www.serverless.com/)

@@ -3,7 +3,7 @@
 - Install Serverless Framework
 ```bash
 npm install -g serverless
-```bash
+```
 - Install Durable's cli
 ```bash
 pip install pydurable[cli]

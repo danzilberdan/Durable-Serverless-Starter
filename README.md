@@ -10,6 +10,7 @@ This sample uses:
 ## Set Up
 - Clone this repo
 - Check out the [Setup Guide](./SETUP.md) to get up and running.
+- Checkout the [Gettings Started](./GETTING_STARTED.md) guide for a more in-depth explanation.
 
 ### Example
 Check [main.py](./main.py) for the full example.

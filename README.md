@@ -1,3 +1,5 @@
+This project is deprecated.
+
 # Durable Serverless Starter (Preview)
 Sample project implementing serverless durable function execution in python using **Durable**.
 In case you don't know what the heck Durable is, read about it [here](https://github.com/danzilberdan/py-durable/blob/main/GETTING_STARTED.md).
